@@ -54,14 +54,6 @@ Located in `/frontend`
   - `react-hot-toast` used for non-blocking toast notifications (success/error).
   - Designed using modern standard UI practices: rounded corners, clean layouts, subtle shadows, and responsive tables.
 
-## Best Practices & Scalability Improvements Included
-
-> [!TIP]
-> The codebase was designed with standard production practices in mind.
-
-- **Environment Variables**: Sensitive connection strings and secrets are decoupled into `.env` files.
-- **Component Modularity**: UI is split into reusable layouts (`Navbar`, `Sidebar`) and targeted page components.
-- **Axios Interceptors**: Instead of manually attaching tokens to every API call, an interceptor handles it universally, reducing boilerplate and risk of omission.
 
 ## How to Run Locally
 
@@ -81,10 +73,3 @@ You can run the application with the following steps:
    npm run dev
    ```
 
-## Deployment Recommendations (Bonus)
-
-- **Database**: Use **MongoDB Atlas** for a scalable, managed database.
-- **Backend**: Deploy the Express server to **Render**, **Railway**, or **Heroku**.
-- **Frontend**: Deploy the Vite React app to **Vercel** or **Netlify** (Ensure you set up rewrite rules for SPA routing in your deployment provider).
-
-The project is complete and ready for you to test and deploy!
